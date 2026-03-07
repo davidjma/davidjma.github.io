@@ -46,3 +46,21 @@ h1{
 h2{
   margin-top:30px;
 }
+
+.timeline {
+  padding-right: 20px;  /* switch to right */
+  padding-left: 0;
+}
+.timeline::before {
+  right: 5px;           /* switch to right */
+  left: auto;
+}
+.timeline li {
+  padding-right: 24px;  /* switch to right */
+  padding-left: 0;
+  text-align: right;    /* optional: aligns text to the right too */
+}
+.timeline li::before {
+  right: -4px;          /* switch to right */
+  left: auto;
+}
